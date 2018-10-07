@@ -1,0 +1,98 @@
+.index-main {
+    color: rgb(71, 59, 59);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.index-banner {
+    background: url('../img/bg-banner.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 650px;
+    /* position: relative; */
+}
+
+.index-banner-bgcolor {
+    background-color: RGBA(13, 70, 83, 0.78);
+    height: 650px;
+}
+
+.collapse.navbar-collapse {
+    /* //  border: red; */
+}
+
+.navbar-default {
+    background-color: #fff;
+    /* padding: 20px 0; */
+    transition: all 0.3s;
+}
+
+.navbar-default {
+    /* background-color: transparent; */
+    border-bottom: 1px solid rgb(188, 195, 218);
+    padding: 10px 10px;
+    background: rgba(28, 74, 90, 0.9);
+}
+
+.top-navbar-custom {
+    padding: 0;
+    background: rgba(28, 74, 90, 0.9);
+}
+
+/* .navbar-default{
+    padding: 0; 
+    background: rgba(28,74,90, 0.9);
+} */
+
+ul.nav.navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* ul.nav.navbar-nav>li.active>a,
+ul.nav.navbar-nav>li.active>a:hover,
+ul.nav.navbar-nav>li.active>a:focus {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(12, 184, 182, .21);
+} */
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(12, 184, 182, 0.21);
+}
+
+ul.nav.navbar-nav>li> a:hover,
+ul.nav.navbar-nav>li> a:focus {
+    color: #fff;
+    background-color: rgba(12, 184, 182, .21);
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(12, 184, 182, 0.21);
+}
+
+.affix {
+    background-color: #ffffff !important;
+}
+.affix .navbar-nav > li > a:hover,
+ .affix .navbar-nav > li > a:focus
+{
+    background-color: rgba(12, 184, 182) !important;
+}
+@media (min-width: 220px) and (max-width:756px) {
+    .navbar-default {
+        border-bottom: none;
+        z-index: 999;
+    }
+    .index-main {
+        padding-top: 300px;
+        padding-bottom: 200px;
+        z-index: 99;
+    }
+}
